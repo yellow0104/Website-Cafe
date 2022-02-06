@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+.title {
+    position:relative;
+    top: 400px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+#box_ice {
+    position:relative;
+    bottom: 390px;
+    left: 800px;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: block;
+    width: 180px;
+    height: 60px;
+    background-color: silver;
+    color: aliceblue;
+}
+#box_latte {
+    position:relative;
+    bottom: 300px;
+    left: 600px;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: block;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(22, 206, 47);
+    color: aliceblue;
+    
+}
+#box_poop {
+    position:relative;
+    bottom: 480px;
+    left: 1000px;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: block;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(206, 148, 22);
+    color: aliceblue;
+    
+}
+#box_cocoa {
+    position:relative;
+    bottom: 570px;
+    left: 1200px;
+    font-size: 20px;    
+    padding-top: 30px;
+    border-radius: 10px;
+    display: block;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(116, 81, 6);
+    color: aliceblue;
+    
+}
+
+
+
+section {
+    position:static;
+
+    height: 800px;
+    background-image: url("https://www.starbucks.co.kr/common/img/main/fav_prod_bg_new.jpg");
+}
+h1 {
+    margin: 0;
+}
+.center {
+    text-align: center;
+}
+
+@media(max-width: 768px){
+
+.title {
+    display: none;
+}
+}
